@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Compass | Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Campus Compass</h1>
+        <p>Your little companion through college.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="exams.html">Exams</a>
+        <a href="resources.html">Resources</a>
+        <a href="toolkit.html">Toolkit</a>
+    </nav>
+
+    <main>
+
+        <h2>Student Toolkit</h2>
+        <p>Simple tools to make your college life easier.</p>
+
+        <div class="toolkit-box">
+
+            <h3>Attendance Calculator</h3>
+
+            <p>Calculate your current attendance percentage.</p>
+
+            <label for="attended">Classes Attended:</label>
+            <input type="number" id="attended" placeholder="Enter classes attended">
+
+            <label for="total">Total Classes:</label>
+            <input type="number" id="total" placeholder="Enter total classes">
+
+            <button type="button" onclick="calculateAttendance()">
+                Calculate Attendance
+            </button>
+
+            <h3 id="result"></h3>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Campus Compass. Made for students.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

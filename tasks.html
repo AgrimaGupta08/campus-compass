@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Compass | Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Campus Compass</h1>
+        <p>Your little companion through college.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="exams.html">Exams</a>
+        <a href="resources.html">Resources</a>
+        <a href="toolkit.html">Toolkit</a>
+    </nav>
+
+    <main>
+
+        <h2>My Task Manager</h2>
+        <p>Keep track of your assignments and daily academic work.</p>
+
+        <div class="task-box">
+
+            <h3>Add a New Task</h3>
+
+            <form>
+                <label for="task">Task Name:</label>
+                <input type="text" id="task" placeholder="Enter your task">
+
+                <button type="button" onclick="addTask()">Add Task</button>
+            </form>
+
+            <h3>My Tasks</h3>
+
+            <ul id="taskList">
+                <li>Tasks:</li>
+            </ul>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Campus Compass. Made for students.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
